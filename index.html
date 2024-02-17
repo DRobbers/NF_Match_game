@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Matching Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <iframe id="map" width="289" height="178" src="https://www.youtube.com/embed/tsmPCi7NKrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      <iframe id="map-right" width="289" height="178" src="https://www.youtube.com/embed/BzSzwqb-OEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br>
+      <img src ="img/NF-Logo.png" class="map" alt="NF Logo" width= 100">
+      <h1>Matching Game</h1>
+      <p>This site is for fun. We are not affiliated with NF, just a fan. This little game will evolve with different tiles and challenges. </p><p>For your listening enjoyment, I have embedded both <em>Hope</em> and <em>The Search</em> albums below. </p> <p>Please visit <a href= "https://www.nfrealmusic.com" target ="_blank"> NF's official website </a> for more information on this dope artist</p>
+    </header>
+    <section id="game-container">
+
+			<!-- This is where we display the flip and match counters -->
+      <div id="ui-container">
+        <h3>Flips: <span id="flip-count">0</span></h3>
+        <h3>Matches: <span id="match-count">0</span></h3>
+      </div>
+			
+			<!-- This is where our cards will be rendered -->
+      <div id="card-container">
+<!--         <div class="card">
+          <div class="card-down"></div>
+          <div class="card-up"></div>
+      </div> -->
+      </div>
+    </section>
+
+		<div class="btn-container">
+    
+			<button class="reset-btn" onclick="resetGame()">Reset</button>
+		</div>
+    <div class="container">
+     <iframe class="map-bottom-left" width="289" height="178" src="https://www.youtube.com/embed/videoseries?list=PLlHv2_0xmZFTP0s6CujOv6jmh9MrkgCmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe id="map-bottom" width="289" height="178" src="https://www.youtube.com/embed/videoseries?list=PLlHv2_0xmZFT_q7w3X5iobi5rd-oUGpI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+    </div>
+		<script src= "https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+
+    <script src="https://bit.ly/3HbMbbF"></script>
+    <script src="provided.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
